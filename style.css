@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
 }
 .tog{
     color: #3BCBF9 !important;
@@ -105,7 +105,7 @@ body{
     margin-top: -5rem;
 }
 .boss{
-    padding-top: 4rem;
+    padding-top: 5rem;
 }
 .ever{
     border-radius: 0 0 150px 150px;
@@ -268,6 +268,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 5rem 0;
     }
     #accu{
         height: auto;
@@ -392,6 +393,9 @@ body{
     .gin{
         margin-right: auto;
         margin-left: auto;
+    }
+    .bgnd{
+        margin-bottom: 5rem;
     }
 }
     @media only screen and (max-width:860px){
