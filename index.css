@@ -19,7 +19,7 @@ body{
 .heads a{
     color: #000000;
     font-size: large;
-    font-weight: 600;
+    font-weight: 500;
 }
 .homeg a{
     color: #3BCBF9;
@@ -55,10 +55,90 @@ body{
 }
 .txt{
     color: white;
-    padding: 80px 40px;
+    padding: 5rem 5rem 5rem 15rem;
 }
 .bgnd{
     background: transparent linear-gradient(232deg, #3BCBF9 0%, #1E667D 100%) 0% 0% no-repeat padding-box;
+}
+.easy{
+    display: flex;
+    justify-content: center;
+    padding: 15rem 0 15rem 0;
+}
+.tlk p{
+    font-weight: 600;
+}
+.tlk{
+    padding-top: 3rem;
+}
+#accu{
+    padding-left: 5rem;
+}
+.firstcont{
+    padding-left: 5rem;
+}
+.rd{
+    padding-left: 5rem !important;
+}
+.cb{
+    padding-right: 5rem !important;
+}
+.imag{
+   padding: 1rem;
+}
+.industry{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 2px 2px whitesmoke;
+}
+.db{
+    padding-bottom: 5rem;
+    background-color: white !important;
+}
+.industry{
+    padding-top: 5rem;
+    border-radius: 10rem 10rem 0 0;
+}
+.tv{
+    margin-top: -15rem;
+}
+.km{
+    background-color: white !important;
+}
+.booking{
+    background: transparent linear-gradient(2deg, #3BCBF959 0%, #1E667D00 100%) 0% 0% no-repeat padding-box !important;
+}
+.bluey{
+    color: #3BCBF9;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+}
+.list li{
+    font-size: large;
+    font-weight: 600;
+    padding: 1rem;
+}
+.fl ul{
+    padding: 5rem 25rem 5rem 10rem;
+}
+.sl ul{
+    padding: 5rem 25rem 5rem 10rem;
+}
+.fl, .sl{
+    background-color: #3BCBF926;
+}
+.fl{
+    border-radius: 0 20rem 20rem 0;
+    margin-right: -5rem;
+}
+.sl{
+    border-radius: 20rem 0 0 20rem;
+    margin-left: -5rem;
+}
+.size{
+    font-size: large !important;
 }
 
 @media only screen and (max-width: 768px){
@@ -69,4 +149,126 @@ body{
         color: white;
         padding: 50px 20px;
     }
+    .easy{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 0;
+    }
+    #accu{
+        height: auto;
+        width: 100%;
+        padding: 3rem 1rem 2rem 1rem;
+        margin: 0;
+    }
+    .tlk{
+        padding: 0 0.5rem 2rem 2rem;
+    }
+    .txt{
+        color: white;
+        padding: 2rem;
+    }
+    .firstcont{
+        padding-left: 0;
+    }
+    .cb, .rd{
+        padding: 1rem !important;
+    }
+    .imag{
+        padding: 1rem;
+    }
+    .gallery{
+        width: 100%;
+        height: auto;
+    }
+    .industry{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .db{
+        padding: 0 !important;
+    }
+    .industry{
+        padding: 0 !important;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .tv{
+        margin: 0;
+        text-align: center;
+    }
+    .gallery{
+        padding: 1rem;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .fl ul{
+        padding: 0;
+    }
+    .sl ul{
+        padding: 0;
+    }
+    .fl, .sl{
+        background-color: #3BCBF926;
+    }
+    .fl{
+        border: none;
+        border-radius: 0;
+        margin: 0;
+    }
+    .sl{
+        border: none;
+        border-radius: 0;
+        margin:0;
+    }
+}
+@media only screen and (max-width: 1344px){
+    .fl ul{
+        padding: 5rem 10rem 5rem 5rem;
+    }
+    .sl ul{
+        padding: 5rem 10rem 5rem 7rem;
+    }
+    .fl, .sl{
+        background-color: #3BCBF926;
+    }
+    .fl{
+        border-radius: 0 15rem 15rem 0;
+        margin-right: -3rem;
+    }
+    .sl{
+        border-radius: 15rem 0 0 15rem;
+        margin-left: -3rem;
+    }}
+    @media only screen and (max-width:1248px){
+        .list{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        .fl ul{
+            padding: 0;
+        }
+        .sl ul{
+            padding: 0;
+        }
+        .fl, .sl{
+            background-color: #3BCBF926;
+        }
+        .fl{
+            border: none;
+            border-radius: 0;
+            margin: 0;
+        }
+        .sl{
+            border: none;
+            border-radius: 0;
+            margin:0;
+        }
 }

@@ -19,7 +19,7 @@ body{
 .heads a{
     color: #000000;
     font-size: large;
-    font-weight: 600;
+    font-weight: 500;
 }
 .homeg a{
     color: #3BCBF9;
@@ -110,7 +110,7 @@ body{
 .ever{
     border-radius: 0 0 150px 150px;
 }
-.easy{
+.usage{
     background: transparent linear-gradient(0deg, #3BCBF959 0%, #1F698102 56%, #1E667D00 100%) 0% 0% no-repeat padding-box;
 }
 .easy{
