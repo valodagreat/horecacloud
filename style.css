@@ -180,23 +180,6 @@ body{
     border-radius: 20rem 0 0 20rem;
     margin-left: -5rem;
 }
-.pricing{
-    display: flex;
-    justify-content: space-around;
-}
-.greene{
-    color: #2BDE00;
-}
-.purebusiness{
-    display: flex;
-    justify-content: space-around;
-}
-.enterprise{
-    width: 250px;
-}
-.enterprise h4{
-    color: #3BCBF9;
-}
 .ending{
     background: transparent linear-gradient(251deg, #3BCBF9 0%, #1E667D 100%) 0% 0% no-repeat padding-box;
 }
@@ -320,17 +303,6 @@ body{
         border-radius: 0;
         margin:0;
     }
-    .pricing{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .bitcoin{
-        width: 100%;
-        height: auto;
-        padding: 2rem;
-    }
 }
 @media only screen and (max-width: 320px){
     .ozil{
@@ -398,17 +370,6 @@ body{
         margin-bottom: 5rem;
     }
 }
-    @media only screen and (max-width:860px){
-        .purebusiness{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
-        }
-        .enterprise{
-            margin: 3rem 0 3rem 0;
-        }
-    }
 @media only screen and (max-width:1440px){
     .PMS{
         padding-left: 10rem;

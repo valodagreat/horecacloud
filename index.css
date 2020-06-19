@@ -137,11 +137,28 @@ body{
     border-radius: 20rem 0 0 20rem;
     margin-left: -5rem;
 }
-.size{
-    font-size: large !important;
-}
 .mic{
     width: 200px;
+}
+.first,.second,.third,.four{
+    padding-bottom: 5rem !important;
+}
+.pricing{
+    display: flex;
+    justify-content: space-around;
+}
+.purebusiness{
+    display: flex;
+    justify-content: space-around;
+}
+.enterprise{
+    width: 250px;
+}
+.enterprise h4{
+    color: #3BCBF9;
+}
+.greene{
+    color: #2BDE00;
 }
 
 @media only screen and (max-width: 768px){
@@ -230,6 +247,20 @@ body{
         border-radius: 0;
         margin:0;
     }
+    .first,.second,.third,.four{
+        padding-bottom: 0 !important;
+    }
+    .pricing{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bitcoin{
+        width: 100%;
+        height: auto;
+        padding: 2rem;
+    }
 }
 @media only screen and (max-width: 1344px){
     .fl ul{
@@ -248,7 +279,11 @@ body{
     .sl{
         border-radius: 15rem 0 0 15rem;
         margin-left: -3rem;
-    }}
+    }
+    .first,.second,.third,.four{
+        padding-bottom: 3rem !important;
+    }
+}
     @media only screen and (max-width:1248px){
         .list{
             display: flex;
@@ -274,4 +309,18 @@ body{
             border-radius: 0;
             margin:0;
         }
+        .first,.second,.third,.four{
+            padding-bottom: 0 !important;
+        }
+}
+@media only screen and (max-width:860px){
+    .purebusiness{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .enterprise{
+        margin: 3rem 0 3rem 0;
+    }
 }
