@@ -95,6 +95,9 @@ body{
     padding-bottom: 5rem;
     background-color: white !important;
 }
+.shadoe{
+    box-shadow: 0 0 2px 2px whitesmoke;
+}
 .industry{
     padding-top: 5rem;
     border-radius: 10rem 10rem 0 0;
@@ -105,9 +108,7 @@ body{
 .km{
     background-color: white !important;
 }
-.booking{
-    background: transparent linear-gradient(2deg, #3BCBF959 0%, #1E667D00 100%) 0% 0% no-repeat padding-box !important;
-}
+
 .bluey{
     color: #3BCBF9;
 }
@@ -143,6 +144,9 @@ body{
 .first,.second,.third,.four{
     padding-bottom: 5rem !important;
 }
+.fsl{
+    margin-right: -6px;
+}
 .pricing{
     display: flex;
     justify-content: space-around;
@@ -160,6 +164,18 @@ body{
 .greene{
     color: #2BDE00;
 }
+.ending{
+    background: transparent linear-gradient(251deg, #3BCBF9 0%, #1E667D 100%) 0% 0% no-repeat padding-box;
+}
+.footer{
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+}
+.footer{
+    color: #707070;;
+}
+.ending{
+    color: white;
+}
 
 @media only screen and (max-width: 768px){
     .gstart{
@@ -168,22 +184,6 @@ body{
     .txt{
         color: white;
         padding: 50px 20px;
-    }
-    .easy{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 5rem 0;
-    }
-    #accu{
-        height: auto;
-        width: 100%;
-        padding: 3rem 1rem 2rem 1rem;
-        margin: 0;
-    }
-    .tlk{
-        padding: 0 0.5rem 2rem 2rem;
     }
     .txt{
         color: white;
@@ -261,30 +261,35 @@ body{
         height: auto;
         padding: 2rem;
     }
+    .fsl{
+        margin-right: 0 !important;
+    }
 }
 @media only screen and (max-width: 1344px){
     .fl ul{
-        padding: 5rem 10rem 5rem 5rem;
+        padding: 5rem;
     }
     .sl ul{
-        padding: 5rem 10rem 5rem 7rem;
+        padding: 5rem;
     }
     .fl, .sl{
         background-color: #3BCBF926;
+        width: 500px;
     }
     .fl{
-        border-radius: 0 15rem 15rem 0;
-        margin-right: -3rem;
+        border-radius: 5rem !important;
     }
     .sl{
-        border-radius: 15rem 0 0 15rem;
-        margin-left: -3rem;
+        border-radius: 5rem !important;
     }
     .first,.second,.third,.four{
         padding-bottom: 3rem !important;
     }
+    .fsl{
+        margin-right: 0 !important;
+    }
 }
-    @media only screen and (max-width:1248px){
+ @media only screen and (max-width:1198px){
         .list{
             display: flex;
             flex-direction: column;
@@ -298,19 +303,27 @@ body{
         }
         .fl, .sl{
             background-color: #3BCBF926;
+            width: 100%;
         }
         .fl{
             border: none;
-            border-radius: 0;
+            border-radius: 0 !important;
             margin: 0;
         }
         .sl{
             border: none;
-            border-radius: 0;
+            border-radius: 0 !important;
             margin:0;
         }
         .first,.second,.third,.four{
             padding-bottom: 0 !important;
+        }
+        .fsl{
+            margin-right: 0 !important;
+        }
+        .gallery{
+            width: 400px;
+            height: 400px;
         }
 }
 @media only screen and (max-width:860px){
@@ -322,5 +335,53 @@ body{
     }
     .enterprise{
         margin: 3rem 0 3rem 0;
+    }
+}
+@media only screen and (max-width:1024px){
+    .easy{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 0;
+    }
+    #accu{
+        height: auto;
+        width: 100%;
+        padding: 3rem 1rem 2rem 1rem;
+        margin: 0;
+    }
+    .tlk{
+        padding: 0 0.5rem 2rem 2rem;
+    }
+}
+@media only screen and (max-width:828px){
+    .gallery{
+        width: 100%;
+        height: auto;
+    }
+    .industry{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .db{
+        padding: 0 !important;
+    }
+    .industry{
+        padding: 0 !important;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .tv{
+        margin: 0;
+        text-align: center;
+    }
+    .gallery{
+        padding: 1rem;
+    }
+    .shadoe{
+        box-shadow: none;
     }
 }
