@@ -355,7 +355,7 @@ body{
         padding: 0 0.5rem 2rem 2rem;
     }
 }
-@media only screen and (max-width:828px){
+@media only screen and (max-width:864px){
     .gallery{
         width: 100%;
         height: auto;

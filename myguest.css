@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.tog{
+    color: #3BCBF9 !important;
+}
+.togg{
+    border: 2px solid #3BCBF9 !important;
+}
+.togg:active,.togg:visited{
+    border: 2px solid #3BCBF9 !important;
+}
+.heads a{
+    color: #000000;
+    font-size: large;
+    font-weight: 500;
+}
+.homeg a{
+    color: #3BCBF9;
+    font-size: large;
+    font-weight: 600;
+}
+.homeg a:hover{
+    color: #3BCBF9;
+}
+.gsent{
+    background-color: white;
+    color: #000000;
+    border: 4px solid #3BCBF9;
+    border-radius: 37px;
+    padding: 7px;
+}
+.gsent:hover{
+    color: #000000;
+    text-decoration: none;
+}
+.head{
+    margin-top: 4px;
+}
+.head:active{
+    border-bottom: 2px solid #3BCBF9;
+}
+.heads a:hover{
+    color: #000000;
+}
+.gstart{
+    border: 4px solid #3BCBF9;
+    border-radius: 37px;
+}
+.txt{
+    color: white;
+    padding: 5rem 5rem 5rem 15rem;
+}
+.bgnd{
+    background: transparent linear-gradient(232deg, #3BCBF9 0%, #1E667D 100%) 0% 0% no-repeat padding-box;
+}
+.firstcont{
+    padding-left: 5rem;
+}
+.usage{
+    background: transparent linear-gradient(0deg, #3BCBF959 0%, #1F698102 56%, #1E667D00 100%) 0% 0% no-repeat padding-box;
+}
+.easy{
+    display: flex;
+    justify-content: center;
+    padding: 15rem 0 15rem 0;
+}
+.tlk p{
+    font-weight: 600;
+}
+.tlk{
+    padding-top: 3rem;
+}
+#accu{
+    padding-left: 5rem;
+}
+.ending{
+    background: transparent linear-gradient(251deg, #3BCBF9 0%, #1E667D 100%) 0% 0% no-repeat padding-box;
+}
+.footer{
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+}
+.footer{
+    color: #707070;;
+}
+.ending{
+    color: white;
+}
+.txt img{
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px){
+    .gstart{
+        border: none;
+    }
+    .txt{
+        color: white;
+        padding: 50px 20px;
+    }
+    .txt{
+        color: white;
+        padding: 2rem;
+    }
+    .firstcont{
+        padding-left: 0;
+    }
+    .easy{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 0;
+    }
+    #accu{
+        height: auto;
+        width: 100%;
+        padding: 3rem 1rem 2rem 1rem;
+        margin: 0;
+    }
+    .tlk{
+        padding: 0 0.5rem 2rem 2rem;
+    }
+}
