@@ -63,22 +63,27 @@ body{
 .firstcont{
     padding-left: 5rem;
 }
-.usage{
-    background: transparent linear-gradient(0deg, #3BCBF959 0%, #1F698102 56%, #1E667D00 100%) 0% 0% no-repeat padding-box;
+.links,.mylink{
+    font-size: x-large !important;
 }
-.easy{
-    display: flex;
-    justify-content: center;
-    padding: 15rem 0 15rem 0;
+.links,.links:hover{
+    text-decoration: none;
+    color: #000000;
 }
-.tlk p{
-    font-weight: 600;
+.little{
+    font-size: small;
 }
-.tlk{
-    padding-top: 3rem;
+.buton, .buton:visited{
+    background-color: #000000;
+    color: white;
+    padding: 1rem;
+    border-radius: 2rem !important;
 }
-#accu{
-    padding-left: 5rem;
+.buton:active, .buton:focus{
+    background-color: #000000;
+    color: white;
+    padding: 1rem;
+    border-radius: 2rem !important;
 }
 .ending{
     background: transparent linear-gradient(251deg, #3BCBF9 0%, #1E667D 100%) 0% 0% no-repeat padding-box;
@@ -106,21 +111,5 @@ body{
     }
     .firstcont{
         padding-left: 0;
-    }
-    .easy{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 5rem 0;
-    }
-    #accu{
-        height: auto;
-        width: 100%;
-        padding: 3rem 1rem 2rem 1rem;
-        margin: 0;
-    }
-    .tlk{
-        padding: 0 0.5rem 2rem 2rem;
     }
 }

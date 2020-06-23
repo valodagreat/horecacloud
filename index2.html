@@ -30,15 +30,12 @@
                       </li>
                     <li class="nav-item heads p-1">
                       <a class="nav-link" href="reseller.html">Reseller</a>
-                    </li> 
-                    <li class="nav-item heads p-1">
-                      <a class="nav-link" href="#">Book A Demo</a>
                     </li>  
                     <li class="nav-item heads p-1">
                       <a class="nav-link" href="#">Blog</a>
                     </li>  
                     <li class="nav-item heads p-1">
-                      <a class="nav-link" href="#">Contact</a>
+                      <a class="nav-link" href="contact.html">Contact</a>
                     </li>  
                     <li class="nav-item homeg gstart col-sm-ml-4">
                       <a class="nav-link" href="#start">Get Started</a>
@@ -302,6 +299,58 @@
                 </div>
         </section>
         </section>
+        <section id="sign" class="p-5">
+          <h2 class="text-center py-5">Register With Us</h2>
+          <form action="https://formspree.io/mqkyqrqq" method="POST" name="signup">
+              <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="name">Business Name</label>
+                    <input type="text" class="form-control" name="Business Name" id="name" placeholder="Horeca Ng" required>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="location">Business Location</label>
+                    <input type="text" class="form-control" name="Business Location" id="location" placeholder="Location" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress">Address</label>
+                  <input type="text" required class="form-control" name="Address" id="inputAddress" placeholder="17 Ibikunle St, Yaba, Lagos,Nigeria">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="text" class="form-control" name="Email" id="email" placeholder="info@horecacloud.ng" required>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-4">
+                    <label for="number">Contact Number</label>
+                    <input type="number" name="Contact Number" class="form-control" id="number" required>
+                  </div>
+                  <div class="form-group col-md-4" id="board">
+                    <label for="outletype">Outlet Type</label>
+                    <select id="outletype" name="outletType" onchange="handleChange()" class="form-control" required>
+                      <option value="Hotel">Hotel</option>
+                      <option value="Restaurant">Restaurant</option>
+                      <option value="Buka">Buka</option>
+                      <option value="Independent Vendor">Independent Vendor</option>
+                      <option value="others">Others specify...</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="position">Position</label>
+                    <input type="text" name="Position" class="form-control" id="position" required>
+                  </div>
+                </div>
+                <div class="form-row">
+                 <div class="form-group col-md-6 ">
+                  <label for="software">Your Current PMS System</label>
+                  <input type="text" name="Software" class="form-control" id="software" required placeholder="management software">
+                </div>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                </div>
+          </form>
+      </section>
          <section class="ending">
             <div class="pl-4">
             <div>
