@@ -80,6 +80,27 @@ body{
 #accu{
     padding-left: 5rem;
 }
+.why{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5rem 15rem;
+}
+.ozil{
+    background-color: white;
+    padding: 1rem;
+    width: 350px;
+    height: 240px;
+    margin-bottom: 5rem;
+}
+.int{
+    padding: 1rem 0 1rem 3rem;
+}
+.ozil h5{
+    text-align: center;
+    padding-top: 1rem;
+}
 .ending{
     background: transparent linear-gradient(251deg, #3BCBF9 0%, #1E667D 100%) 0% 0% no-repeat padding-box;
 }
@@ -122,5 +143,35 @@ body{
     }
     .tlk{
         padding: 0 0.5rem 2rem 2rem;
+    }
+    .why{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .ozil{
+        padding: 0;
+        margin-bottom: 5rem;
+        width: 300px;
+        height: 240px;
+    }
+    .int{
+        width: 200px;
+        padding: 1rem 0 1rem 5rem;
+    }
+}
+@media only screen and (max-width: 320px){
+    .ozil{
+        margin: 2rem 3rem 2rem 1rem;
+        width: 280px;
+    }
+    .int{
+        padding: 1rem auto;
+    }
+    .case{
+        padding-right: 1rem;
+        padding-left: 4rem;
     }
 }
